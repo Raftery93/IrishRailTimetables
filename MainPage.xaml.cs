@@ -1,4 +1,7 @@
-﻿using Windows.UI.Xaml.Controls;
+﻿using System;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using Windows.UI.Xaml.Controls;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -12,6 +15,12 @@ namespace IrishRailTimetables
         public MainPage()
         {
             this.InitializeComponent();
+
+            HttpClient client = new HttpClient();
+            client.BaseAddress = new Uri("https://data.dublinked.ie/cgi-bin/rtpi/realtimebusinformation?stopid=GALWY&format=json");
+            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+            HttpResponseMessage response = client.GetAsync("https://data.dublinked.ie/cgi-bin/rtpi/realtimebusinformation?stopid=GALWY&format=json").Result;
+            var result = response.Content.ReadAsStringAsync().Result;
 
 
         }
