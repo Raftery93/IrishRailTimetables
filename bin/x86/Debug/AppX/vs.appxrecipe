@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-06T20:10:42.248</Modified>
+      <Modified>2018-03-06T21:09:41.420</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\bin\x86\Debug\IrishRailTimetables.exe">
       <PackagePath>entrypoint\IrishRailTimetables.exe</PackagePath>
-      <Modified>2018-03-06T20:10:41.697</Modified>
+      <Modified>2018-03-06T21:09:40.830</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\c-raf\.nuget\packages\microsoft.csharp\4.3.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -572,7 +572,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\bin\x86\Debug\Core\IrishRailTimetables.exe">
       <PackagePath>IrishRailTimetables.exe</PackagePath>
-      <Modified>2018-03-06T20:10:42.236</Modified>
+      <Modified>2018-03-06T21:09:41.407</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
