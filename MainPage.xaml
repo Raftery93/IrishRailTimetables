@@ -7,7 +7,51 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
+
+
+
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <TextBox x:Name="preferedStation" TextChanged="preferedStation_Changed">
+
+        </TextBox>
+
+        <Pivot x:Name="pvtTabs" SelectionChanged="pvtTabs_SelectionChanged"
+               Grid.Row="1">
+
+            <PivotItem Header="All Stations" Background="Silver" x:Name="pvtAllStations">
+
+
+                <StackPanel Orientation="Horizontal" Margin="20">
+                    <TextBlock>Select Station</TextBlock>
+                    <ComboBox Name="ComboxBox1" ItemsSource="{x:Bind sNames}" Width="150" Margin="10,0"></ComboBox>
+                </StackPanel>
+
+                <!--
+             <TextBlock x:Name = "stationDetailsTextBox"/>
+ 
+                StackPanel Orientation="Horizontal" Margin="20">
+                <TextBlock>Select Student</TextBlock>
+                <ComboBox Name="ComboxBox1" ItemsSource="{x:Bind StuList}" Width="150" Margin="10,0"></ComboBox>
+                </StackPanel>
+                
+                 -->
+
+            </PivotItem>
+            <PivotItem Header="Closest Station" Background="Orange" x:Name="pvtClosestStation">
+                <TextBlock Text="Laaad"/>
+            </PivotItem>
+            <PivotItem Header="Document your Travels" Background="Blue" x:Name="pvtDocumentTravels">
+
+            </PivotItem>
+            
+        </Pivot>
+
 
     </Grid>
 </Page>

@@ -9,6 +9,7 @@ namespace IrishRailTimetables
     //Created using http://json2csharp.com/
     public class Result
     {
+        public Result ShowResults;
         public string arrivaldatetime { get; set; }
         public string duetime { get; set; }
         public string departuredatetime { get; set; }
