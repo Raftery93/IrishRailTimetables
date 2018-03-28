@@ -7,7 +7,9 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-
+    <Page.Resources>
+        <local:MyLocation x:Key="xamlLocation"/>
+    </Page.Resources>
 
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
@@ -25,34 +27,21 @@
                Grid.Row="1">
 
             <PivotItem Header="All Stations" Background="Silver" x:Name="pvtAllStations">
-
-
                 <StackPanel Orientation="Horizontal" Margin="20">
-                    <TextBlock>Select Station</TextBlock>
+                    <TextBlock>Select Station and Click Select</TextBlock>
                     <ComboBox Name="ComboxBox1" ItemsSource="{x:Bind sNames}" Width="150" Margin="10,0"></ComboBox>
-
-
                     <Button Content="Select" Click="select_OnClick"/>
-                    
                     <TextBlock x:Name = "stationDetailsTextBox"/>
                 </StackPanel>
-                
-                
-
-                <!--
-             <TextBlock x:Name = "stationDetailsTextBox"/>
- 
-                StackPanel Orientation="Horizontal" Margin="20">
-                <TextBlock>Select Student</TextBlock>
-                <ComboBox Name="ComboxBox1" ItemsSource="{x:Bind StuList}" Width="150" Margin="10,0"></ComboBox>
-                </StackPanel>
-                
-                 -->
-
             </PivotItem>
+            
             <PivotItem Header="Closest Station" Background="Orange" x:Name="pvtClosestStation">
-                <TextBlock Text="Laaad"/>
+                <StackPanel DataContext="{StaticResource xamlLocation}">
+                    <TextBlock Text="Laaad"/>
+                    <Button Content="Get Location" Click="getLocation_Click"/>
+                </StackPanel>
             </PivotItem>
+            
             <PivotItem Header="Document your Travels" Background="Blue" x:Name="pvtDocumentTravels">
 
             </PivotItem>

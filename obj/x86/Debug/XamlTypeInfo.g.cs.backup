@@ -132,21 +132,15 @@ namespace IrishRailTimetables.IrishRailTimetables_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[6];
-            _typeNameTable[0] = "IrishRailTimetables.MyLocation";
-            _typeNameTable[1] = "Object";
-            _typeNameTable[2] = "Windows.Devices.Geolocation.Geoposition";
-            _typeNameTable[3] = "IrishRailTimetables.MainPage";
-            _typeNameTable[4] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[5] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable = new string[3];
+            _typeNameTable[0] = "IrishRailTimetables.MainPage";
+            _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
 
-            _typeTable = new global::System.Type[6];
-            _typeTable[0] = typeof(global::IrishRailTimetables.MyLocation);
-            _typeTable[1] = typeof(global::System.Object);
-            _typeTable[2] = typeof(global::Windows.Devices.Geolocation.Geoposition);
-            _typeTable[3] = typeof(global::IrishRailTimetables.MainPage);
-            _typeTable[4] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[5] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable = new global::System.Type[3];
+            _typeTable[0] = typeof(global::IrishRailTimetables.MainPage);
+            _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -181,8 +175,7 @@ namespace IrishRailTimetables.IrishRailTimetables_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_MyLocation() { return new global::IrishRailTimetables.MyLocation(); }
-        private object Activate_3_MainPage() { return new global::IrishRailTimetables.MainPage(); }
+        private object Activate_0_MainPage() { return new global::IrishRailTimetables.MainPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -194,36 +187,18 @@ namespace IrishRailTimetables.IrishRailTimetables_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  IrishRailTimetables.MyLocation
-                userType = new global::IrishRailTimetables.IrishRailTimetables_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_0_MyLocation;
-                userType.AddMemberName("Geopositionpos");
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 1:   //  Object
-                xamlType = new global::IrishRailTimetables.IrishRailTimetables_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 2:   //  Windows.Devices.Geolocation.Geoposition
-                userType = new global::IrishRailTimetables.IrishRailTimetables_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 3:   //  IrishRailTimetables.MainPage
+            case 0:   //  IrishRailTimetables.MainPage
                 userType = new global::IrishRailTimetables.IrishRailTimetables_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_3_MainPage;
+                userType.Activator = Activate_0_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 4:   //  Windows.UI.Xaml.Controls.Page
+            case 1:   //  Windows.UI.Xaml.Controls.Page
                 xamlType = new global::IrishRailTimetables.IrishRailTimetables_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 5:   //  Windows.UI.Xaml.Controls.UserControl
+            case 2:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::IrishRailTimetables.IrishRailTimetables_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
@@ -231,26 +206,11 @@ namespace IrishRailTimetables.IrishRailTimetables_XamlTypeInfo
         }
 
 
-        private object get_0_MyLocation_Geopositionpos(object instance)
-        {
-            var that = (global::IrishRailTimetables.MyLocation)instance;
-            return that.Geopositionpos;
-        }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
             global::IrishRailTimetables.IrishRailTimetables_XamlTypeInfo.XamlMember xamlMember = null;
-            global::IrishRailTimetables.IrishRailTimetables_XamlTypeInfo.XamlUserType userType;
-
-            switch (longMemberName)
-            {
-            case "IrishRailTimetables.MyLocation.Geopositionpos":
-                userType = (global::IrishRailTimetables.IrishRailTimetables_XamlTypeInfo.XamlUserType)GetXamlTypeByName("IrishRailTimetables.MyLocation");
-                xamlMember = new global::IrishRailTimetables.IrishRailTimetables_XamlTypeInfo.XamlMember(this, "Geopositionpos", "Windows.Devices.Geolocation.Geoposition");
-                xamlMember.Getter = get_0_MyLocation_Geopositionpos;
-                xamlMember.SetIsReadOnly();
-                break;
-            }
+            // No Local Properties
             return xamlMember;
         }
     }

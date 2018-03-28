@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>9FA4AF57DC368C9062F77BD314FE8671A15B2EBC3C83591CA576AA6850DEAC1E</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>B8C5B196369846907E41CB2F2CB79AB6E305A6EE3055F44672F550F104FD1A3A</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>340bc678-e8b9-46c8-a942-78f5ca08ecc5_1.0.0.0_x86__pv2622f8chdyg</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>340bc678-e8b9-46c8-a942-78f5ca08ecc5_pv2622f8chdyg!App</RegisteredUserModeAppID>
     <RegisteredPackageID>340bc678-e8b9-46c8-a942-78f5ca08ecc5</RegisteredPackageID>
@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T22:58:57.667</Modified>
+      <Modified>2018-03-28T23:41:20.590</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\bin\x86\Debug\IrishRailTimetables.exe">
       <PackagePath>entrypoint\IrishRailTimetables.exe</PackagePath>
-      <Modified>2018-03-28T22:58:57.058</Modified>
+      <Modified>2018-03-28T23:41:18.070</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\c-raf\.nuget\packages\microsoft.csharp\4.3.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -568,11 +568,11 @@
     <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T21:27:50.270</Modified>
+      <Modified>2018-03-28T23:41:20.084</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\bin\x86\Debug\Core\IrishRailTimetables.exe">
       <PackagePath>IrishRailTimetables.exe</PackagePath>
-      <Modified>2018-03-28T22:58:57.653</Modified>
+      <Modified>2018-03-28T23:41:20.576</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
