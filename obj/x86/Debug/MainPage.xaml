@@ -30,7 +30,14 @@
                 <StackPanel Orientation="Horizontal" Margin="20">
                     <TextBlock>Select Station</TextBlock>
                     <ComboBox x:ConnectionId='7' Name="ComboxBox1"                               Width="150" Margin="10,0"></ComboBox>
+
+
+                    <Button x:ConnectionId='8' Content="Select"                       />
+                    
+                    <TextBlock x:ConnectionId='9' x:Name = "stationDetailsTextBox"/>
                 </StackPanel>
+                
+                
 
                 <!--
              <TextBlock x:Name = "stationDetailsTextBox"/>
