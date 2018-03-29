@@ -56,6 +56,25 @@ namespace IrishRailTimetables
 
         }//MainPage
 
+        //public static TextBlock LatitudeTextBox;
+        //public static TextBlock LongitudeTextBox;
+
+        void callForLocation_Click(object sender, RoutedEventArgs e)
+        {
+            MyLocation location = new MyLocation();
+            location.getLocation_Click(sender, e);
+
+            string latitude = MyLocation.latitude;
+            string longitude = MyLocation.longitude;
+
+     
+            LatitudeTextBox.Text = latitude;
+            LongitudeTextBox.Text = longitude;
+
+
+
+        }
+
 
         void select_OnClick(object sender, RoutedEventArgs e)
         {
@@ -83,6 +102,12 @@ namespace IrishRailTimetables
             string fullDetails = obj.ToString();
 
             Debug.WriteLine("fullDetails: "+fullDetails);
+
+            //string destinationStation = obj.results[0].destination;
+            //string originStation = obj.results[0].origin;
+            //string departureTime = obj.results[0].scheduleddeparturedatetime;
+            //string arrivalTime=obj.results[0].scheduledarrivaldatetime;
+
 
             if (fullDetails != "") {
 

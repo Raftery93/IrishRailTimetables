@@ -29,16 +29,17 @@
             <PivotItem x:ConnectionId='4' Header="All Stations" Background="Silver" x:Name="pvtAllStations">
                 <StackPanel Orientation="Horizontal" Margin="20">
                     <TextBlock>Select Station and Click Select</TextBlock>
-                    <ComboBox x:ConnectionId='8' Name="ComboxBox1"                               Width="150" Margin="10,0"></ComboBox>
-                    <Button x:ConnectionId='9' Content="Select"                       />
-                    <TextBlock x:ConnectionId='10' x:Name = "stationDetailsTextBox"/>
+                    <ComboBox x:ConnectionId='10' Name="ComboxBox1"                               Width="150" Margin="10,0"></ComboBox>
+                    <Button x:ConnectionId='11' Content="Select"                       />
+                    <TextBlock x:ConnectionId='12' x:Name = "stationDetailsTextBox"/>
                 </StackPanel>
             </PivotItem>
             
             <PivotItem x:ConnectionId='5' Header="Closest Station" Background="Orange" x:Name="pvtClosestStation">
-                <StackPanel DataContext="{StaticResource xamlLocation}">
-                    <TextBlock Text="Laaad"/>
-                    <Button x:ConnectionId='7' Content="Get Location"                          />
+                <StackPanel Orientation="Horizontal" Margin="20">
+                    <Button x:ConnectionId='7' Content="Get Location"                              />
+                    <TextBlock x:ConnectionId='8' x:Name = "LatitudeTextBox"/>
+                    <TextBlock x:ConnectionId='9' x:Name = "LongitudeTextBox"/>
                 </StackPanel>
             </PivotItem>
             

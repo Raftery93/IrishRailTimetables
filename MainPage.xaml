@@ -36,9 +36,10 @@
             </PivotItem>
             
             <PivotItem Header="Closest Station" Background="Orange" x:Name="pvtClosestStation">
-                <StackPanel DataContext="{StaticResource xamlLocation}">
-                    <TextBlock Text="Laaad"/>
-                    <Button Content="Get Location" Click="getLocation_Click"/>
+                <StackPanel Orientation="Horizontal" Margin="20">
+                    <Button Content="Get Location" Click="callForLocation_Click"/>
+                    <TextBlock x:Name = "LatitudeTextBox"/>
+                    <TextBlock x:Name = "LongitudeTextBox"/>
                 </StackPanel>
             </PivotItem>
             

@@ -96,12 +96,15 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="DisplayItems.cs" />
+    <Compile Include="LocationOperator.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="MyLocation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Result.cs" />
+    <Compile Include="ResultLocation.cs" />
+    <Compile Include="RootLocation.cs" />
     <Compile Include="RootObject.cs" />
   </ItemGroup>
   <ItemGroup>
