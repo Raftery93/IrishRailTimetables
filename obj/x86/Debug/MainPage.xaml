@@ -5,6 +5,7 @@
     xmlns:local="using:IrishRailTimetables"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps"
     mc:Ignorable="d">
 
     <Page.Resources>
@@ -19,31 +20,54 @@
             <RowDefinition />
         </Grid.RowDefinitions>
 
-        <TextBox x:ConnectionId='2' x:Name="preferedStation"                                      >
 
-        </TextBox>
 
-        <Pivot x:ConnectionId='3' x:Name="pvtTabs"                                            
+        <Pivot x:ConnectionId='2' x:Name="pvtTabs"                                            
                Grid.Row="1">
 
-            <PivotItem x:ConnectionId='4' Header="All Stations" Background="Silver" x:Name="pvtAllStations">
+            <PivotItem x:ConnectionId='3' Header="All Stations" Background="Silver" x:Name="pvtAllStations">
+                
                 <StackPanel Orientation="Horizontal" Margin="20">
+                    
                     <TextBlock>Select Station and Click Select</TextBlock>
-                    <ComboBox x:ConnectionId='10' Name="ComboxBox1"                               Width="150" Margin="10,0"></ComboBox>
-                    <Button x:ConnectionId='11' Content="Select"                       />
-                    <TextBlock x:ConnectionId='12' x:Name = "stationDetailsTextBox"/>
+                    <ComboBox x:ConnectionId='14' Name="ComboxBox1"                              ></ComboBox>
+                    <Button x:ConnectionId='15' Content="Select"                       />
+                    <ScrollViewer Grid.Row="1" Grid.Column="10" VerticalScrollMode="Auto" Background="Silver">
+                        <TextBlock x:ConnectionId='16' x:Name = "stationDetailsTextBox"/>
+                    </ScrollViewer>
                 </StackPanel>
             </PivotItem>
             
-            <PivotItem x:ConnectionId='5' Header="Closest Station" Background="Orange" x:Name="pvtClosestStation">
+            <PivotItem x:ConnectionId='4' Header="Closest Station" Background="Orange" x:Name="pvtClosestStation">
                 <StackPanel Orientation="Horizontal" Margin="20">
-                    <Button x:ConnectionId='7' Content="Get Location"                              />
-                    <TextBlock x:ConnectionId='8' x:Name = "LatitudeTextBox"/>
-                    <TextBlock x:ConnectionId='9' x:Name = "LongitudeTextBox"/>
+                    <Button x:ConnectionId='9' Content="Get Location"                              />
+                    <TextBlock Text="Your Coordinates:"/>
+                    <TextBlock x:ConnectionId='10' x:Name = "LatitudeTextBox"/>
+                    <TextBlock x:ConnectionId='11' x:Name = "LongitudeTextBox"/>
+                    <TextBlock x:ConnectionId='12' x:Name = "originTitleTextBox"/>
+                    <ScrollViewer Grid.Row="1" Grid.Column="10" VerticalScrollMode="Auto" Background="Orange">
+                        <TextBlock x:ConnectionId='13' x:Name = "detailsTextBox"/>
+                    </ScrollViewer>
+
                 </StackPanel>
             </PivotItem>
             
-            <PivotItem x:ConnectionId='6' Header="Document your Travels" Background="Blue" x:Name="pvtDocumentTravels">
+            <PivotItem x:ConnectionId='5' Header="Document your Travels" Background="Blue" x:Name="pvtDocumentTravels">
+
+                <StackPanel>
+                    
+                   
+
+                    <Grid x:ConnectionId='6' x:Name="pageGrid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+                        <Maps:MapControl x:ConnectionId='8'
+                    x:Name="MapControl1"            
+                    ZoomInteractionMode="GestureAndControl"
+                    TiltInteractionMode="GestureAndControl"   
+                    MapServiceToken="EnterYourAuthenticationKeyHere" Margin="0,0,0,-873"/>
+                    </Grid>
+                     <TextBox x:ConnectionId='7' x:Name="preferedStation"                                      />
+                </StackPanel>
+                    
 
             </PivotItem>
             

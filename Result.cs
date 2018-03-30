@@ -31,7 +31,7 @@ namespace IrishRailTimetables
 
         public override string ToString()
         {
-            return string.Format("Departure From: {0}\tArriving To: {1}\nDeparture Date/Time: {2}\tArrival Date/Time: {3}\n",
+            return string.Format("\nDeparture From: {0}\t\tArriving To: {1}\nDeparture Date/Time: {2}\tArrival Date/Time: {3}\n\n",
                 origin, destination, departuredatetime, scheduledarrivaldatetime);
         }
 

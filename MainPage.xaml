@@ -5,6 +5,7 @@
     xmlns:local="using:IrishRailTimetables"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps"
     mc:Ignorable="d">
 
     <Page.Resources>
@@ -19,31 +20,54 @@
             <RowDefinition />
         </Grid.RowDefinitions>
 
-        <TextBox x:Name="preferedStation" TextChanged="preferedStation_Changed">
 
-        </TextBox>
 
         <Pivot x:Name="pvtTabs" SelectionChanged="pvtTabs_SelectionChanged"
                Grid.Row="1">
 
             <PivotItem Header="All Stations" Background="Silver" x:Name="pvtAllStations">
+                
                 <StackPanel Orientation="Horizontal" Margin="20">
+                    
                     <TextBlock>Select Station and Click Select</TextBlock>
-                    <ComboBox Name="ComboxBox1" ItemsSource="{x:Bind sNames}" Width="150" Margin="10,0"></ComboBox>
+                    <ComboBox Name="ComboxBox1" ItemsSource="{x:Bind sNames}"></ComboBox>
                     <Button Content="Select" Click="select_OnClick"/>
-                    <TextBlock x:Name = "stationDetailsTextBox"/>
+                    <ScrollViewer Grid.Row="1" Grid.Column="10" VerticalScrollMode="Auto" Background="Silver">
+                        <TextBlock x:Name = "stationDetailsTextBox"/>
+                    </ScrollViewer>
                 </StackPanel>
             </PivotItem>
             
             <PivotItem Header="Closest Station" Background="Orange" x:Name="pvtClosestStation">
                 <StackPanel Orientation="Horizontal" Margin="20">
                     <Button Content="Get Location" Click="callForLocation_Click"/>
+                    <TextBlock Text="Your Coordinates:"/>
                     <TextBlock x:Name = "LatitudeTextBox"/>
                     <TextBlock x:Name = "LongitudeTextBox"/>
+                    <TextBlock x:Name = "originTitleTextBox"/>
+                    <ScrollViewer Grid.Row="1" Grid.Column="10" VerticalScrollMode="Auto" Background="Orange">
+                        <TextBlock x:Name = "detailsTextBox"/>
+                    </ScrollViewer>
+
                 </StackPanel>
             </PivotItem>
             
             <PivotItem Header="Document your Travels" Background="Blue" x:Name="pvtDocumentTravels">
+
+                <StackPanel>
+                    
+                   
+
+                    <Grid x:Name="pageGrid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+                        <Maps:MapControl
+                    x:Name="MapControl1"            
+                    ZoomInteractionMode="GestureAndControl"
+                    TiltInteractionMode="GestureAndControl"   
+                    MapServiceToken="EnterYourAuthenticationKeyHere" Margin="0,0,0,-873"/>
+                    </Grid>
+                     <TextBox x:Name="preferedStation" TextChanged="preferedStation_Changed"/>
+                </StackPanel>
+                    
 
             </PivotItem>
             
