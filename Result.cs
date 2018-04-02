@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace IrishRailTimetables
 {
     //Created using http://json2csharp.com/
+    //Contains getters & setters for api object
     public class Result
     {
         public Result ShowResults;
@@ -28,13 +29,12 @@ namespace IrishRailTimetables
         public string sourcetimestamp { get; set; }
         public string monitored { get; set; }
 
-
+        //Only return certain items
         public override string ToString()
         {
-            return string.Format("\nDeparture From: {0}\t\tArriving To: {1}\nDeparture Date/Time: {2}\tArrival Date/Time: {3}\n\n",
+            return string.Format("\nDeparture From: {0}\t\tArriving To: {1}\nDeparture Date/Time:" +
+                " {2}\tArrival Date/Time: {3}\n\n",
                 origin, destination, departuredatetime, scheduledarrivaldatetime);
         }
-
-
     }
 }

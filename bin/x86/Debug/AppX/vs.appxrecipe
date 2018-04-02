@@ -8,8 +8,8 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
-    <PackageIdentityName>340bc678-e8b9-46c8-a942-78f5ca08ecc5</PackageIdentityName>
-    <PackageIdentityPublisher>CN=c-raf</PackageIdentityPublisher>
+    <PackageIdentityName>c55dd975-0d4f-4e28-9858-c0d03054a89d</PackageIdentityName>
+    <PackageIdentityPublisher>CN=1C436544-658E-4ABC-8758-C7D488A7B616</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
@@ -19,25 +19,25 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>B8C5B196369846907E41CB2F2CB79AB6E305A6EE3055F44672F550F104FD1A3A</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>340bc678-e8b9-46c8-a942-78f5ca08ecc5_1.0.0.0_x86__pv2622f8chdyg</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>340bc678-e8b9-46c8-a942-78f5ca08ecc5_pv2622f8chdyg!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>340bc678-e8b9-46c8-a942-78f5ca08ecc5</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=c-raf</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <RegisteredManifestChecksum>5B38AF0BFBCE092E6A9AF62DC579615B92B23CDF11DAA5FE84BAFD3FC098A6CE</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>22690Raftery93.IrishTrainTimes_1.1.15.0_x86__yjcrddvvbjfhg</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>22690Raftery93.IrishTrainTimes_yjcrddvvbjfhg!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>22690Raftery93.IrishTrainTimes</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=1C436544-658E-4ABC-8758-C7D488A7B616</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.15.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-30T01:09:31.171</Modified>
+      <Modified>2018-04-02T16:42:29.005</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\bin\x86\Debug\IrishRailTimetables.exe">
       <PackagePath>entrypoint\IrishRailTimetables.exe</PackagePath>
-      <Modified>2018-03-30T01:09:30.114</Modified>
+      <Modified>2018-04-02T16:42:25.763</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\c-raf\.nuget\packages\microsoft.csharp\4.3.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -519,9 +519,234 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T22:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2018-03-06T19:41:06.692</Modified>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\BadgeLogo.scale-100.png">
+      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:56:23.312</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\BadgeLogo.scale-125.png">
+      <PackagePath>Assets\BadgeLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:56:23.347</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\BadgeLogo.scale-150.png">
+      <PackagePath>Assets\BadgeLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:56:23.382</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\BadgeLogo.scale-200.png">
+      <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:56:23.420</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\BadgeLogo.scale-400.png">
+      <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:56:23.477</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:16.018</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:16.086</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:16.168</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:16.291</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:16.669</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:15.080</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:15.117</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:15.154</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:15.193</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:15.249</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:17.287</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:17.385</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:17.516</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:18.387</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:15.291</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:15.331</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:15.376</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:15.546</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:17.064</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:17.214</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:17.127</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:17.160</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:16.702</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:16.735</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:16.768</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:16.849</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:16.882</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:16.915</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:17.031</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:16.948</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:16.980</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:18.420</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:18.452</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:18.485</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:18.521</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:18.567</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\trainLogo.png">
+      <PackagePath>Assets\trainLogo.png</PackagePath>
+      <Modified>2018-03-30T23:54:46.091</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:15.588</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:15.636</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:15.695</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-30T23:55:15.964</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -530,36 +755,39 @@
     <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-19T22:43:02.034</Modified>
+      <Modified>2018-03-30T23:55:17.715</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-19T22:43:02.034</Modified>
+      <Modified>2018-03-30T23:55:15.433</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-19T22:43:02.034</Modified>
+      <Modified>2018-03-30T23:55:16.806</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-19T22:43:02.034</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\StoreLogo.png">
-      <PackagePath>Assets\StoreLogo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-19T22:43:02.034</Modified>
+      <Modified>2018-03-30T23:55:17.096</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-19T22:43:02.034</Modified>
+      <Modified>2018-03-30T23:55:15.768</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Assets\Click.mp3">
+      <PackagePath>Assets\Click.mp3</PackagePath>
+      <Modified>2018-03-30T19:23:12.805</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2018-03-06T19:41:06.692</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\bin\x86\Debug\IrishRailTimetables.xr.xml">
       <PackagePath>IrishRailTimetables.xr.xml</PackagePath>
-      <Modified>2018-03-29T19:02:28.642</Modified>
+      <Modified>2018-04-02T16:06:17.842</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -568,11 +796,11 @@
     <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-29T23:28:33.771</Modified>
+      <Modified>2018-04-02T16:42:28.365</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\bin\x86\Debug\Core\IrishRailTimetables.exe">
       <PackagePath>IrishRailTimetables.exe</PackagePath>
-      <Modified>2018-03-30T01:09:31.154</Modified>
+      <Modified>2018-04-02T16:42:28.991</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

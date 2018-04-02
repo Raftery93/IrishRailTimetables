@@ -1,0 +1,16 @@
+/osver:6.2
+/appcontainer
+/runtime:mrt100_app
+/eh:clr
+/pdb
+"/nativeLink:C:\Users\c-raf\.nuget\packages\microsoft.net.native.compiler\1.7.3\tools\ARM\ilc\lib\Native\vmath.lib"
+/customImports
+/methodBodyFolding
+"C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\obj\ARM\Release\ilc\intermediate\MDIL\IrishRailTimetables.mdilexe"
+"/i:C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\obj\ARM\Release\ilc\intermediate\MDIL"
+"/out:C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\obj\ARM\Release\ilc\intermediate\Native\IrishRailTimetables.exe"
+"/pdbAltPath:C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\bin\ARM\Release\ilc"
+"/res:C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\obj\ARM\Release\ilc\intermediate\Native.res"
+"/i:C:\Users\c-raf\.nuget\packages\microsoft.net.native.sharedlibrary-arm\1.7.0\tools\SharedLibrary\ret\MDIL"
+/shimexe
+"/classlib:SharedLibrary"

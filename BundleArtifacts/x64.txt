@@ -1,0 +1,2 @@
+MainPackage=C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\bin\x64\Release\IrishRailTimetables_1.1.15.0_x64.appx
+SymbolPackage=C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\AppPackages\IrishRailTimetables_1.1.15.0_Test\IrishRailTimetables_1.1.15.0_x64.appxsym

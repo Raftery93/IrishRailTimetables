@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="340bc678-e8b9-46c8-a942-78f5ca08ecc5" Publisher="CN=c-raf" Version="1.0.0.0" />
-  <mp:PhoneIdentity PhoneProductId="340bc678-e8b9-46c8-a942-78f5ca08ecc5" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="22690Raftery93.IrishTrainTimes" Publisher="CN=1C436544-658E-4ABC-8758-C7D488A7B616" Version="1.1.15.0" />
+  <mp:PhoneIdentity PhoneProductId="c55dd975-0d4f-4e28-9858-c0d03054a89d" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>IrishRailTimetables</DisplayName>
-    <PublisherDisplayName>c-raf</PublisherDisplayName>
+    <DisplayName>IrishTrainTimes</DisplayName>
+    <PublisherDisplayName>Raftery93</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
@@ -15,8 +15,9 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="IrishRailTimetables.App">
-      <uap:VisualElements DisplayName="IrishRailTimetables" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="IrishRailTimetables" BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png">
+      <uap:VisualElements DisplayName="IrishTrainTimes" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="IrishRailTimetables" BackgroundColor="transparent">
+        <uap:LockScreen Notification="badge" BadgeLogo="Assets\BadgeLogo.png" />
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\LargeTile.png" Square71x71Logo="Assets\SmallTile.png">
         </uap:DefaultTile>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>

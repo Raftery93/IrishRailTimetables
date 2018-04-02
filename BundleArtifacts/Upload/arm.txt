@@ -1,0 +1,6 @@
+MainPackage=C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\bin\ARM\Release\Upload\IrishRailTimetables_1.1.15.0_ARM.appx
+SymbolPackage=C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\bin\ARM\Release\Upload\IrishRailTimetables_1.1.15.0\IrishRailTimetables_1.1.15.0_ARM.appxsym
+ResourcePack=C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\bin\ARM\Release\IrishRailTimetables_1.1.15.0_scale-100.appx
+ResourcePack=C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\bin\ARM\Release\IrishRailTimetables_1.1.15.0_scale-125.appx
+ResourcePack=C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\bin\ARM\Release\IrishRailTimetables_1.1.15.0_scale-150.appx
+ResourcePack=C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\bin\ARM\Release\IrishRailTimetables_1.1.15.0_scale-400.appx

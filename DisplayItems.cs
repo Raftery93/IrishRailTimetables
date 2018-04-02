@@ -7,16 +7,9 @@ using System.Threading.Tasks;
 
 namespace IrishRailTimetables
 {
-    class DisplayItems : INotifyPropertyChanged
+    //Contains getters & setters for populating combobox
+    class DisplayItems
     {
-        //public string destinationStation { get; set; }
-        // public string originStation { get; set; }
-        // public string departureTime { get; set; }
-        // public string arrivalTime { get; set; }
-        private string selectedStation;
-
-        public event PropertyChangedEventHandler PropertyChanged;
-
         public int ID
         {
             get;
@@ -27,32 +20,11 @@ namespace IrishRailTimetables
         {
             get;
             set;
-
         }
-
-        /*
-        public string SelectedStation
-        {
-            set
-            {
-                selectedStation = value;
-                if (PropertyChanged != null)
-                {
-                    PropertyChanged(this, new PropertyChangedEventArgs("stationName"));
-                }
-            }
-            get
-            {
-                return selectedStation;
-            }
-        }
-        */
 
         public override string ToString()
         {
             return this.stationName;
         }
     }
-
-
 }

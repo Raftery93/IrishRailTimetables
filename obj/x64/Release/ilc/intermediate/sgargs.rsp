@@ -1,0 +1,11 @@
+/out:"C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\obj\x64\Release\ilc\intermediate\SgGenerated\\"
+/int:"C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\obj\x64\Release\ilc\intermediate\\"
+/ref:"C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\obj\x64\Release\ilc\intermediate\PreMergeILTransformed"
+/ref:"C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\obj\x64\Release\ilc\intermediate\TransformedSRWR"
+/ref:"C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\obj\x64\Release\ilc\in"
+/ref:"C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\obj\x64\Release\ilc\in\\"
+/ref:"C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\obj\x64\Release\ilc\in\\"
+/ref:"C:\Users\c-raf\.nuget\packages\microsoft.net.native.compiler\1.7.3\tools\x64\ilc\lib\Private\\"
+/ref:"C:\Users\c-raf\OneDrive\Documents\College Work\Year_3\Mobile App\IrishRailTimetables\IrishRailTimetables\obj\x64\Release\ilc\in\WinMetadata"
+/ca:System.Private.CoreLib
+/cscpath:"C:\Users\c-raf\.nuget\packages\microsoft.net.native.compiler\1.7.3\tools\x64\ilc\csc"

@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace IrishRailTimetables
 {
-   public class ResultLocation
+    //Created using http://json2csharp.com/
+    //Contains getters & setters for api object
+    public class ResultLocation
     {
         public ResultLocation ShowLocationResults;
         public string stopid { get; set; }
@@ -20,14 +22,11 @@ namespace IrishRailTimetables
         public string lastupdated { get; set; }
         public List<LocationOperator> operators { get; set; }
 
-
-
+        //Only return certain items
         public override string ToString()
         {
             return string.Format("Latitude: {0}\tLongitude: {1}\n",
                 latitude, longitude);
         }
-    }
-
-   
+    } 
 }

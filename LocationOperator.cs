@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace IrishRailTimetables
 {
+    //Created using http://json2csharp.com/
+    //Contains getters & setters for api object
     public class LocationOperator
     {
         public string name { get; set; }
