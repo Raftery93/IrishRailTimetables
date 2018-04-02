@@ -34,55 +34,36 @@ Open Visual Studio 2017 -> File -> Open -> Folder -> Select IrishRailTimetables
 
 ### Launch application
 
+When the app is closed down, and re-opened again, it remembers what pivot page you were on when you closed it.
+
 First Pivot page contains a dropdown box which contains all train stations. click the dropdown box and select a station to view train details.
 
+![alt text](https://i.imgur.com/TBmRgaD.png)
 
-### Break down into end to end tests
 
-Explain what these tests test and why
+Second Pivot page gets your current location and display train details of the closest station to your location. To do this, click on current location*.
 
-```
-Give an example
-```
+![alt text](https://i.imgur.com/5Ka3vLU.png)
 
-### And coding style tests
 
-Explain what these tests test and why
+Third Pivot page opens a map of all stations around Ireland. There is also a text box which saves whatever text you type, for when you open the app again. To test this, type into the textbox provided and then close/reopen the app.
 
-```
-Give an example
-```
+![alt text](https://i.imgur.com/f3z8vIQ.png)
 
-## Deployment
+
+Fourth Pivot page displays a list of all the stations and there distance in kilometers from your current location. Click on the Get Distances button*.
+
+![alt text](https://i.imgur.com/1YjfmhA.png)
+
+
+*These functions use geo location so you must allow the app to access your current location.
+
+
+## Windows Store
 
 Add additional notes about how to deploy this on a live system
 
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* **Conor Raftery** - *Only Contributor* - [Raftery93](https://github.com/Raftery93)
