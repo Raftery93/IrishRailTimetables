@@ -1,6 +1,20 @@
 # IrishRailTimetables
 This is a UWP which is part of my module "Mobile Applications Development". It uses an API provided by IrishRail. It shows details about certain trains times in Ireland.
 
+## Synopsis
+
+This UWP application is designed with a clear purpose in mind, to deliver a clear, precise and easy to use application. As part of the design process, I created an application in which the user will find useful during those times of travel. This is why the user will frequently use this application.
+While viewing other applications like this, I found that they were quite difficult to use, and my application has basic but useful functionality. It can also be used on mobile devices, which is unique.
+
+### Functionality
+
+• UI provides a good user experience that is fit for purpose (See the use of Pivots)
+• Uses local storage for storing previous user data (Pivot pages and textbox) to enhance the user experience
+• Uses location services via geoloaction
+• Uses Map capabilities to generate a map with selected pins
+• Uses an API to extract data
+• Incorporates sound to enhance the interactivity
+
 ## Getting Started
 
 To deploy this UWP, you will need to clone or download this repository. Once downloaded, you will need to run the .sln file.
