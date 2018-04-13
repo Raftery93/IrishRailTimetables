@@ -75,7 +75,11 @@ Fourth Pivot page displays a list of all the stations and there distance in kilo
 
 ## Windows Store
 
-Add additional notes about how to deploy this on a live system
+It took 3 attempts to upload my UWP to the Windows Store, it failed the first time due to the app packages not containing certain images, the second failure was due to the UWP crashing on launch on xBox and Mobile platforms.
+You can download this App using this link: [IrishTrainTimes](https://www.microsoft.com/en-ie/store/p/irishtraintimes/9mw0vhf8lt61)
+
+
+![alt text](https://i.imgur.com/p9ZNh93.png)
 
 
 ## Authors
